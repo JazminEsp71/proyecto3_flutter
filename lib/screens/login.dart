@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:proyecto_p3_flutter/screens/home.dart';
 import 'package:proyecto_p3_flutter/service/usuario_service.dart';
 
 class LoginScreen extends StatefulWidget {
@@ -100,17 +101,4 @@ class _LoginScreenState extends State<LoginScreen> {
   }
 }
 
-class HomePage extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return CupertinoPageScaffold(
-      navigationBar: CupertinoNavigationBar(
-        middle: Text('Home'),
-      ),
-      child: Center(
-        child: Text('Welcome to the Home Page!'),
-      ),
-    );
-  }
-}
      
